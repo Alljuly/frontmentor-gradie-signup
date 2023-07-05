@@ -10,7 +10,7 @@ function App() {
           <div id="login-image">
             <h2>Gradie</h2>
             <span>Beautiful gradients in seconds</span>
-            <img src={iphone} alt="iphone" width={300} />
+            <img className="iphone" src={iphone} alt="iphone" width={280} />
           </div>
           <div id="login-card">
             <h2 id="login-title">Login</h2>
@@ -37,7 +37,9 @@ function App() {
                 ></input>
                 <label htmlFor="terms">
                   By creating an account, you agree to the{" "}
-                  <a>Terms & Conditions</a>.
+                  <span>
+                    <a href="...">Terms & Conditions</a>.
+                  </span>
                 </label>
               </div>
               <button type="submit">Create an acount</button>
