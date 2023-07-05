@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+
+  box-sizing: border-box;
+  font-family: "Roboto";
+}
+
+body,
+html {
+  height: 100vh;
+  background: rgb(238, 125, 162);
+  background: linear-gradient(
+    113deg,
+    rgba(238, 125, 162, 1) 0%,
+    rgba(248, 215, 166, 1) 100%
+  );
+}
+
+#root {
+  margin-inline: auto;
+}
+
+#login-page {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 100vh;
+  height: 100vh;
+  margin-top: auto;
+  justify-content: center;
+  align-items: center;
+}
+
+#login-image {
+  display: flex;
+  flex-direction: column;
+  background-color: #013243;
+  padding: 1rem 1.5rem;
+  padding-bottom: 0;
+  width: max-content;
+
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 5px 0 0 5px;
+}
+
+h2 {
+  font-weight: bolder;
+}
+
+#login-title {
+  align-items: start;
+}
+
+span {
+  font-weight: lighter;
+  color: rgba(255, 255, 255, 0.685);
+}
+
+#login-card {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(255, 255, 255);
+  color: black;
+  padding: 1rem 3rem;
+
+  justify-content: space-between;
+
+  border-radius: 0 5px 5px 0;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-self: center;
+  align-items: center;
+  min-width: min-content;
+  width: 100%;
+}
+
+.text-login {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  text-align: left;
+  width: 30vh;
+  min-width: min-content;
+
+  padding: 1rem 0;
+}
+
+.form-field {
+  display: flex;
+  flex-direction: column;
+  margin: 0.25rem;
+  width: 100%;
+}
+
+button[type="submit"] {
+  background-color: #013243;
+  color: white;
+
+  width: 100%;
+  min-width: min-content;
+  border-radius: 3px;
+}
+
+input {
+  background-color: white;
+  border-radius: 3px;
+  padding: 0.5rem 1rem;
+  margin-top: 0.5;
+  color: rgba(2, 0, 0, 0.527);
+  min-width: min-content;
+
+  border: 2px rgba(2, 0, 0, 0.178) solid;
+}
+
+.checkbox {
+  margin: 0.2rem 0.5rem;
+}
+
+.content {
+  display: grid;
+  width: max-content;
+  min-width: min-content;
+  grid-template-columns: 1fr 1fr;
+}
