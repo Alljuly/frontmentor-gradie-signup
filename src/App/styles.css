@@ -27,11 +27,9 @@ html {
 }
 
 #login-page {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  width: 100vh;
+  display: flex;
+  width: max-content;
   height: 100vh;
-  margin-top: auto;
   justify-content: center;
   align-items: center;
 }
@@ -103,7 +101,7 @@ form {
   justify-content: center;
   align-items: start;
   text-align: left;
-  width: 30vh;
+  width: 40vh;
   min-width: min-content;
 
   padding: 1rem 0;
@@ -120,6 +118,7 @@ button[type="submit"] {
   background-color: #013243;
   color: white;
 
+  margin: 0.25rem;
   width: 100%;
   min-width: min-content;
   border-radius: 3px;
@@ -155,8 +154,7 @@ input {
 }
 
 .content {
-  display: grid;
+  display: flex;
   width: max-content;
   min-width: min-content;
-  grid-template-columns: 1fr 1fr;
 }
